@@ -1,4 +1,5 @@
-export const API_BASE_URL = 'http://localhost:5000/api';
+// export const API_BASE_URL = 'http://localhost:5000/api';
+export const API_BASE_URL='https://notes-crud-operation-authen-authoriza.onrender.com/api'
 
 export const apiCall = async (endpoint, method = 'GET', body = null, token = null) => {
   const headers = {
