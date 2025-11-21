@@ -30,7 +30,7 @@ const Register = () => {
       <div className="bg-white border-4 border-black p-8 w-full max-w-md shadow-[8px_8px_0px_0px_rgba(0,0,0,1)] relative">
         <div className="absolute -top-6 -right-6 w-12 h-12 bg-[#FFDE59] border-4 border-black rounded-full z-0 hidden md:block"></div>
         
-        <h2 className="text-4xl font-black mb-6 text-center tracking-tight z-10 relative">JOIN NOTE<span className="text-[#8B5CF6]">DAO</span></h2>
+        <h2 className="text-4xl font-black mb-6 text-center tracking-tight z-10 relative">JOIN Kavya<span className="text-[#8B5CF6]">Notes</span></h2>
         
         {error && (
           <div className="bg-red-100 border-2 border-red-500 text-red-700 p-2 mb-4 font-bold text-center shadow-[4px_4px_0px_0px_rgba(239,68,68,1)]">
