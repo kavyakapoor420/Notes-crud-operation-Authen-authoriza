@@ -67,7 +67,7 @@ const Login = () => {
             disabled={isLoading}
             className="bg-[#8B5CF6] text-white font-black text-xl py-3 mt-4 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[2px] hover:translate-y-[2px] hover:shadow-none active:bg-[#7C3AED] transition-all disabled:opacity-50"
           >
-            {isLoading ? 'ENTERING...' : 'ENTER VAULT'}
+            {isLoading ? 'ENTERING...' : 'signin your account'}
           </button>
         </form>
         <p className="mt-4 text-center font-bold">

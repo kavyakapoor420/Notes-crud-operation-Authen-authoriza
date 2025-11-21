@@ -139,7 +139,7 @@ const Dashboard = () => {
                                 type="submit" 
                                 className="flex-1 bg-black text-white font-bold py-3 border-2 border-black hover:bg-white hover:text-black hover:shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] transition-all uppercase"
                             >
-                                {isEditing ? 'Update' : 'Mint Note'}
+                                {isEditing ? 'Update' : 'create Note'}
                             </button>
                         </div>
                     </form>
