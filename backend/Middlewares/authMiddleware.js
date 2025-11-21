@@ -1,4 +1,4 @@
-const jwt=require('jwt')
+const jwt=require('jsonwebtoken')
 
 const protected=(req,res,next)=>{
     let token=req.header("Authorization")
